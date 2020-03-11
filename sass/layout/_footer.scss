@@ -1,0 +1,35 @@
+.footer {
+    background-color: $color-grey-dark-2;
+    padding: 1rem 0;
+    font-size: 1.4rem;
+
+    @include respond(tab-port) {
+        padding: 8rem 0;
+    }
+
+    &__logo {
+        width: 33rem;
+        
+     }
+
+    &__logo-box {
+        width: 5rem;
+    }
+
+    &__copyright {
+        border-top: 3px solid $color-grey-dark;
+        display: inline-block;
+        margin-top: 10rem;
+        padding-top: .5rem;
+    }
+
+    &__link {
+        &:link,
+        &:visited {
+            color: $color-grey-light-1;
+            text-decoration: none;
+            display: inline-block;
+        }
+    }
+
+}
