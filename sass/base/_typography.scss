@@ -12,7 +12,6 @@ body {
     backface-visibility: hidden;
     margin-bottom: 6rem;
 
-
     &--main {
         display: block;
         font-size: 6rem;
@@ -38,7 +37,7 @@ body {
 
         @include respond(phone) {
             letter-spacing: .5rem;
-            font-size: 5rem;
+            font-size: 3rem;
         }
 
     }
@@ -59,8 +58,9 @@ body {
         font-size: 3rem;
     }
 
-    @include respond(tab-port) {
+    @include respond(phone) {
         font-size: 2.5rem;
+        padding-top: 5rem;
     }
 
 }

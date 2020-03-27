@@ -9,11 +9,20 @@
 
     &__logo {
         width: 33rem;
+
+        @include respond(tab-port) {
+            height: 100%;
+            float: center;
+        }
         
      }
 
     &__logo-box {
         width: 5rem;
+
+        @include respond(tab-port) {
+        }
+
     }
 
     &__copyright {
@@ -21,6 +30,12 @@
         display: inline-block;
         margin-top: 10rem;
         padding-top: .5rem;
+
+        @include respond(tab-port) {
+            margin-top: 2px;
+            padding-top: 0;
+        }
+
     }
 
     &__link {
