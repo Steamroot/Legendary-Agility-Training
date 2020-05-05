@@ -35,7 +35,7 @@ body {
     
         animation: moveInRight 1s ease-out;
 
-        @include respond(phone) {
+        @include respond(tab-port) {
             letter-spacing: .5rem;
             font-size: 3rem;
         }
