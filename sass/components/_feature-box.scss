@@ -6,11 +6,9 @@
     border-radius: .4rem;
     box-shadow: 0 1.5rem 4rem rgba($color: $color-black, $alpha: .15);
     transition: .2s;
-    height: 30rem;
+    height: auto;
 
-    @include respond(tab-port) {
-        padding: 2rem;
-    }
+    
 
     &__button {
         &:link,
@@ -28,12 +26,21 @@
 
         @include respond(tab-port) {
             margin-bottom: 0rem;
+            width: 12rem;
         }
 
     }
 
     &__text {
         text-transform: none;
+
+        @include respond(tab-port) {
+            font-size: 3rem;
+        }
+
+        @include respond(phone) {
+            font-size: 2rem;
+        }
     }
 
     &:hover {

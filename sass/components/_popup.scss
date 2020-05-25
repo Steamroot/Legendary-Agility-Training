@@ -80,7 +80,6 @@
         hyphens: auto;
 
         @include respond(tab-port) {
-            overflow: scroll;
             height: 30rem;
             width: 95%;
 
