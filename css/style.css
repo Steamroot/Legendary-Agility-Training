@@ -582,9 +582,9 @@ body {
   color: #fff;
   align-self: center;
   justify-self: center;
-  background-image: linear-gradient(to right bottom, rgba(0, 131, 253, 0.6), rgba(66, 219, 168, 0.6)); }
-  .dogs__heading--span dogs__heading-span--4 {
-    margin: 0 5rem 0 5rem; }
+  background-image: linear-gradient(to right bottom, rgba(0, 131, 253, 0.6), rgba(66, 219, 168, 0.6));
+  padding: 0 30% 0 30%;
+  border-radius: 4px; }
 
 .popup {
   width: 100vw;

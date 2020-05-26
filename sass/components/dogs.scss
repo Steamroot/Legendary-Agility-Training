@@ -88,9 +88,7 @@
         background-image: linear-gradient(to right bottom, 
             rgba($color-primary-dark, 0.60), 
             rgba($color-primary-light, 0.60));
-
-            &--span dogs__heading-span--4 {
-                margin: 0 5rem 0 5rem;
-            }
+        padding: 0 30% 0 30%;
+        border-radius: 4px;
     }
 }
