@@ -9,6 +9,8 @@
     opacity: 0;
     visibility: hidden;
     transition: all .5s;
+    padding: 1rem 0rem 1rem 0rem;
+
 
     &:target {
         opacity: 1;
@@ -17,7 +19,7 @@
     
     &__content {
         @include absCenter;
-        width: 90%;
+        width: 95%;
         background-color: $color-grey-light-1;
         @include boxShadow;
         border-radius: 3px;
@@ -26,15 +28,18 @@
         opacity: 0;
         transform: translate(-50%, -50%) scale(.1);
         transition: all .4s .2s;
+        padding: 2rem 0 2rem 0;
 
         @include respond(tab-port) {
             width: 95%;
+            padding: 2rem;
         }
     }
 
     &__left {
         width: 33.33333333%;
         display: table-cell;
+        vertical-align: middle;
 
         @include respond(tab-port) {
             display: none;
@@ -45,17 +50,13 @@
         width: 66.66666667%;
         display: table-cell;
         vertical-align: middle;
-        padding: 3rem 5rem;
-    }
-
-    &__contact {
-        color: $color-secondary;
-        list-style: none;
+        padding-right: 2.5rem 0 2.5rem 0;
     }
 
     &__img {
         display: block;
         width: 100%;
+        padding-right: 2rem;
 
         @include respond(phone) {
             width: 0%;
@@ -64,8 +65,7 @@
 
     &__text {
         font-size: 1.6rem;
-        margin-bottom: 4rem;
-
+        padding: 2rem;
         -moz-column-count: 2;
         -moz-column-gap: 4rem; //1em 14px;
         -moz-column-rule: 1px solid rgba($color: #000000, $alpha: .2);
@@ -82,16 +82,12 @@
         @include respond(tab-port) {
             height: 30rem;
             width: 95%;
-
             font-size: 3rem;
 
-            -moz-column-count: 1;
-            -moz-column-gap: 3rem; //1em 14px;
-            -moz-column-rule: none;
-        
             column-count: 1;
             column-gap: 3rem; //1em 14px;
             column-rule: none;
+            overflow-y: scroll;
         }
     }
 

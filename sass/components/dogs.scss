@@ -44,7 +44,7 @@
 
     &__right {
         grid-area: 1 / 2 / 2 / 3;
-        background-size: cover;
+        object-fit: contain;
 
         @include respond(phone) {
             grid-column: 1 / 1;
@@ -73,8 +73,9 @@
     }
 
     &__image {
-        width: 100%;
         grid-area: 1 / 2 / 2 / 3;
+        width: 100%;
+        object-fit: cover;
     }
 
     &__heading {
