@@ -1,11 +1,11 @@
 .section-about {
     background-color: $color-grey-light-1;
-    padding: 20rem 0;
+    padding: 25rem 0;
     margin-top: -20vh;
     margin-top: -24rem;
 
     @include respond(tab-port) {
-        padding: 20rem 0 30rem 0;
+        padding: 20rem 0 36rem 0;
     }
 
     @include respond(phone) {
@@ -50,7 +50,7 @@
 }
 
 .dogs {
-    padding: 30rem 0 7rem 0;
+    padding: 18rem 0 7rem 0;
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.3),
         rgba(0, 0, 0, 0.3)
@@ -60,16 +60,18 @@
     position: relative;
     margin-top: -30rem;
 
-    -webkit-clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0% 100%);
-    clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0% 100%);
+    -webkit-clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0% 100%);
+    clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0% 100%);
 
     @include respond(tab-port) {
-        padding: 20rem 0 5rem 0;
+        padding: 13rem 0 5rem 0;
+        -webkit-clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0% 100%);
+        clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0% 100%);
     }
 
     @include respond(phone) {
-        padding: 10rem 0 5rem 0;
-        -webkit-clip-path: polygon(0 2%, 100% 0%, 100% 100%, 0% 100%);
-        clip-path: polygon(0 2%, 100% 0%, 100% 100%, 0% 100%);
+        padding: 8rem 0 5rem 0;
+        -webkit-clip-path: polygon(0 1%, 100% 0%, 100% 100%, 0% 100%);
+        clip-path: polygon(0 1%, 100% 0%, 100% 100%, 0% 100%);
     }
 }

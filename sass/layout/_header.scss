@@ -23,6 +23,27 @@
     z-index: 20000000;
     position: absolute;
     width: 100%;
+
+    &--text {
+      display: inline-block;
+
+      @include respond(phone) {
+        font-size: 2rem;
+      }
+
+    }
+
+    &--close {
+      position: absolute;
+      right: 2rem;
+      vertical-align: middle;
+      cursor: pointer;
+
+      @include respond(phone) {
+        display: none;
+      }
+    }
+
   }
 
   &__logo-box {
