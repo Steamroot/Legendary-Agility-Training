@@ -58,7 +58,8 @@ html {
 
 body {
   box-sizing: border-box;
-  padding: 3rem; }
+  padding: 3rem;
+  overflow: auto; }
   @media (max-width: 56.25em) {
     body {
       padding: 0; } }
@@ -603,9 +604,6 @@ body {
   visibility: hidden;
   transition: all .5s;
   padding: 1rem 0rem 1rem 0rem; }
-  .popup:target {
-    opacity: 1;
-    visibility: visible; }
   .popup__content {
     position: absolute;
     top: 50%;

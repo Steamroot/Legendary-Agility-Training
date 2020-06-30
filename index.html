@@ -14,7 +14,7 @@
         
         <title>Legendary Agility Training | Elizabeth Dott</title>
     </head>
-    <body>
+    <body id="page">
 
         <div class="navigation">
             <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
@@ -48,7 +48,7 @@
                     <span class="heading-primary--sub">Legendary Agility Training</span>
                 </h1>
 
-                <a href="#popup0" class="btn btn--white btn--animated" id="elizabeth-button">Meet The Trainer!</a>
+                <a href="#popup0" class="btn btn--white btn--animated" id="elizabeth-button" name="popup-button">Meet The Trainer!</a>
             </div>
         </header>
 
@@ -86,7 +86,7 @@
                                         <p class="card__price-only">Only</p>
                                         <p class="card__price-value">$160</p>
                                     </div>
-                                    <a href="#popup1" class="btn btn--white">Apply now!</a>
+                                    <a href="#popup1" class="btn btn--white" name="popup-button">Apply now!</a>
                                 </div>
                             </div>
                         </div>
@@ -118,7 +118,7 @@
                                         <p class="card__price-only">Only</p>
                                         <p class="card__price-value">$110</p>
                                     </div>
-                                    <a href="#popup2" class="btn btn--white">Apply now!</a>
+                                    <a href="#popup2" class="btn btn--white" name="popup-button">Apply now!</a>
                                 </div>
                             </div>
                         </div>
@@ -150,7 +150,7 @@
                                         <p class="card__price-only">Only</p>
                                         <p class="card__price-value">$110</p>
                                     </div>
-                                    <a href="#popup3" class="btn btn--white">Apply now!</a>
+                                    <a href="#popup3" class="btn btn--white" name="popup-button">Apply now!</a>
                                 </div>
                             </div>
                         </div>
@@ -183,7 +183,7 @@
                                         <p class="card__price-only">Only</p>
                                         <p class="card__price-value">$110</p>
                                     </div>
-                                    <a href="#popup5" class="btn btn--white">Apply now!</a>
+                                    <a href="#popup5" class="btn btn--white" name="popup-button">Apply now!</a>
                                 </div>
                             </div>
                         </div>
@@ -215,7 +215,7 @@
                                         <p class="card__price-only">Only</p>
                                         <p class="card__price-value">$110</p>
                                     </div>
-                                    <a href="#popup4" class="btn btn--white">Apply now!</a>
+                                    <a href="#popup4" class="btn btn--white" name="popup-button">Apply now!</a>
                                 </div>
                             </div>
                         </div>
@@ -242,7 +242,7 @@
                                         <p class="card__price-only"></p>
                                         <p class="card__price-value">TBD</p>
                                     </div>
-                                    <a href="#popup6" class="btn btn--white">Schedule an appoinment!</a>
+                                    <a href="#popup6" class="btn btn--white" name="popup-button">Schedule an appoinment!</a>
                                 </div>
                             </div>
                         </div>
@@ -332,7 +332,7 @@
                             <p class="paragraph">
                                 Phone number:<br><b>(407) 399-5092</b>
                             </p>
-                            <a href="#popup7" class="btn-text">More about us &rarr;</a>
+                            <a href="#popup7" class="btn-text" name="popup-button">More about us &rarr;</a>
                         </div>
                         <div class="col-1-of-2">
                             <div class="composition">
@@ -471,7 +471,7 @@
 
 
 
-        <div class="popup" id="popup0">
+        <div class="popup" id="popup0" name='popup-open'>
             <div class="popup__content">
                 <div class="popup__left">
                     <img src="img/Elizabeth.jpg" alt="Dog Jumping" class="popup__img">
@@ -487,7 +487,7 @@
             </div>
         </div>
 
-        <div class="popup" id="popup1">
+        <div class="popup" id="popup1" name='popup-open'>
             <div class="popup__content">
                 <div class="popup__left">
                     <img src="img/popup1.jpg" alt="Dog Jumping" class="popup__img">
@@ -504,7 +504,7 @@
             </div>
         </div>
 
-        <div class="popup" id="popup2">
+        <div class="popup" id="popup2" name='popup-open'>
             <div class="popup__content">
                 <div class="popup__left">
                     <img src="img/popup2.jpg" alt="Dog Jumping" class="popup__img">
@@ -521,7 +521,7 @@
             </div>
         </div>
 
-        <div class="popup" id="popup3">
+        <div class="popup" id="popup3" name='popup-open'>
             <div class="popup__content">
                 <div class="popup__left">
                     <img src="img/popup3.jpg" alt="Dog Jumping" class="popup__img">
@@ -538,7 +538,7 @@
             </div>
         </div>
 
-        <div class="popup" id="popup4">
+        <div class="popup" id="popup4" name='popup-open'>
             <div class="popup__content">
                 <div class="popup__left">
                     <img src="img/popup4.jpg" alt="Dog Jumping" class="popup__img">
@@ -555,7 +555,7 @@
             </div>
         </div>
 
-        <div class="popup" id="popup5">
+        <div class="popup" id="popup5" name='popup-open'>
             <div class="popup__content">
                 <div class="popup__left">
                     <img src="img/popup5.jpg" alt="Dog Jumping" class="popup__img">
@@ -564,7 +564,7 @@
                     <a href="#Novice Competition" class="popup__close">&times;</a>
                     <h2 class="heading-secondary u-margin-bottom-small">Class description</h2>
                     <h3 class="heading-tertiary u-margin-bottom-small">Novice Competition</h3>
-                    <p class="popup__text">
+                    <p class="popup__text">o
                         We’re finally done with the basics, lets get into real deal. This class is for teams who have already gone through all our previous Basic courses and are ready to start trailing, we will be putting courses together and get you ready to give the best of you at each competition.
                     </p>
                     <a href="mailto:agilebc4me@gmail.com" class="btn btn--blue">Apply now!</a>
@@ -572,7 +572,7 @@
             </div>
         </div>
 
-        <div class="popup" id="popup6">
+        <div class="popup" id="popup6" name='popup-open'>
             <div class="popup__content">
                 <div class="popup__left">
                     <img src="img/popup5.jpg" alt="Dog Jumping" class="popup__img">
@@ -589,7 +589,7 @@
             </div>
         </div>
 
-        <div class="popup" id="popup7">
+        <div class="popup" id="popup7" name='popup-open'>
             <div class="popup__content">
                 <div class="popup__left">
                     <img src="img/popup6.jpg" alt="Dog Jumping" class="popup__img">
