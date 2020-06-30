@@ -19,7 +19,8 @@
     
     &__content {
         @include absCenter;
-        width: 95%;
+        height: 60%;
+        width: 80%;
         background-color: $color-grey-light-1;
         @include boxShadow;
         border-radius: 3px;
